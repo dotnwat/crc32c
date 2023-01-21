@@ -1,4 +1,4 @@
-project('crc32c', 'cpp', default_options: ['c_std=c11', 'cpp_std=c++11'])
+project('crc32c', 'cpp')
 
 cc = meson.get_compiler('cpp')
 cpp_args = ['-fno-exceptions', '-fno-rtti']
